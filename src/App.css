@@ -182,3 +182,9 @@
     border-right-color: var(--border);
   }
 } */
+
+
+.nav-link.active {
+  color: yellow !important;
+  font-weight: bold;
+}

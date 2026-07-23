@@ -39,8 +39,12 @@ function StudentCard({
   return (
     <div className="card shadow h-100">
       <div className="card-body">
+        
         <h4>{student.name}</h4>
-
+        <p>
+          <strong>Mail:</strong>{" "}
+          {student.email}
+        </p>
         <p>
           <strong>Course:</strong>{" "}
           {student.course}
